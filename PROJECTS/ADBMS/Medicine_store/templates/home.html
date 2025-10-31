@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>Available Medicines</h3>
+<div class="row">
+  {% for med in medicines %}
+  <div class="col-md-4">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5>{{ med.name }}</h5>
+        <p>💰 Price: ₹{{ med.price }}<br>📦 Stock: {{ med.stock }}</p>
+        <form action="{{ url_for('buy_medicine', medicine_id=med.id) }}" method="POST">
+          <input type="number" name="quantity" min="1" max="{{ med.stock }}" value="1" class="form-control mb-2" required>
+          <button class="btn btn-success btn-sm w-100">Buy</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<a href="/purchases" class="btn btn-primary mt-3">View Purchase History</a>
+{% endblock %}

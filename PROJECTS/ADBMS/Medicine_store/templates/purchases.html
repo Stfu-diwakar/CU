@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>Purchase History</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Medicine</th>
+      <th>Quantity</th>
+      <th>Total Price</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in purchases %}
+    <tr>
+      <td>{{ p.medicine.name }}</td>
+      <td>{{ p.quantity }}</td>
+      <td>₹{{ p.total_price }}</td>
+      <td>{{ p.date.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a href="/" class="btn btn-secondary mt-3">Back to Home</a>
+{% endblock %}
