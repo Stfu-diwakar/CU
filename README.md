@@ -46,7 +46,12 @@
 </p>
 
 ---
+### 📊 GeeksforGeeks Profile
 
+[![GfG Profile](https://img.shields.io/badge/GeeksforGeeks-Profile-brightgreen?logo=geeksforgeeks)](https://www.geeksforgeeks.org/user/diwakarjha42037/)  
+[![GfG Streak](https://gfg-streak-stats.vercel.app/api?user=diwakarjha42037&theme=dark&hide_border=true)](https://www.geeksforgeeks.org/user/diwakarjha42037/)
+
+---
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Hey+There!+I'm+Diwakar!;I+Love+Coding+and+Creating!;Web+Development+is+my+playground;Let's+Build+Something+Awesome!+🔥" alt="Typing SVG" />
