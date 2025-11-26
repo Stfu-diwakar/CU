@@ -80,9 +80,9 @@
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Stfu-diwakar&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
-</p>
+## 👀 Visitor Count
+
+<img src="https://raw.githubusercontent.com/Stfu-diwakar/cu/main/assets/visitor.png" width="600">
 
 <p align="center">
   <a href="https://github.com/Stfu-diwakar?tab=followers">
